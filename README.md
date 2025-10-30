@@ -184,16 +184,6 @@ zerodha/
     └── package.json
 ```
 
-## ☁️ Deployment
-
-This project is deployed and live:
-
-- **Database**: MongoDB Atlas (Cloud)
-- **Backend**: Render.com (Free tier)
-- **Frontend**: Vercel (Free tier)
-- **Dashboard**: Vercel (Free tier)
-
-**Total Cost**: $0/month (100% Free!)
 
 ## 🐛 Recent Fixes
 
