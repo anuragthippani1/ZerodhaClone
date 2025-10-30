@@ -2,6 +2,12 @@
 
 A full-stack clone of Zerodha's trading platform built with the MERN stack (MongoDB, Express, React, Node.js).
 
+## 🌐 Live Demo
+
+- **Frontend (Landing Page)**: https://zerodha-clone-two-ochre.vercel.app
+- **Trading Dashboard**: https://zerodha-clone-b7tu.vercel.app
+- **Backend API**: https://zerodhaclone-86y0.onrender.com
+
 ## 🚀 Project Structure
 
 This project consists of three main components:
@@ -178,11 +184,24 @@ zerodha/
     └── package.json
 ```
 
+## ☁️ Deployment
+
+This project is deployed and live:
+
+- **Database**: MongoDB Atlas (Cloud)
+- **Backend**: Render.com (Free tier)
+- **Frontend**: Vercel (Free tier)
+- **Dashboard**: Vercel (Free tier)
+
+**Total Cost**: $0/month (100% Free!)
+
 ## 🐛 Recent Fixes
 
 - ✅ Fixed critical bug in `/newOrder` endpoint (was using `find()` instead of creating new document)
 - ✅ Added navigation to "Signup Now" button in Hero section
-- ✅ Improved project documentation
+- ✅ Converted frontend/dashboard from git submodules to regular directories
+- ✅ Configured CORS for production deployment
+- ✅ Connected to MongoDB Atlas cloud database
 
 ## 🤝 Contributing
 
