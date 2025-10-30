@@ -15,7 +15,13 @@ const uri = process.env.MONGO_URL;
 
 const app = express();
 
-app.use(cors());
+// Allow all origins for now - will update after frontend/dashboard deployment
+app.use(
+  cors({
+    origin: true,
+    credentials: true,
+  })
+);
 app.use(bodyParser.json());
 
 //app.get("/addHoldings", async (req, res) => {
