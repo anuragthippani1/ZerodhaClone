@@ -195,9 +195,5 @@ This project is for educational purposes.
 ## 🙏 Acknowledgments
 
 - Inspired by [Zerodha](https://zerodha.com/)
-- Reference: [Apna College Zerodha Clone](https://github.com/apna-college/Zerodha)
 
----
-
-Made with ❤️ for learning MERN stack development
 
